@@ -1,0 +1,67 @@
+# ITicket - Git Ignore File
+
+# Security Files (IMPORTANT - Never commit these!)
+create_admin.php
+reset_password.php
+
+# Database Configuration (Contains sensitive credentials)
+config/database.php
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+/tmp/
+/logs/
+
+# Backup Files
+*.bak
+*.backup
+*.sql.backup
+
+# Cache and Session Files
+/cache/
+/sessions/
+*.cache
+
+# Upload Directories (if you add file uploads later)
+/uploads/
+/files/
+
+# Composer (if you use it later)
+/vendor/
+composer.lock
+
+# Node.js (if you add build tools later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build and Distribution Files
+/dist/
+/build/
+
+# Database Dumps (except the schema)
+*.sql
+!database.sql
